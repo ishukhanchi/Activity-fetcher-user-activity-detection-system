@@ -91,21 +91,7 @@ int main(int ac, char* av[])
     			return NULL;
 		
 			s = strftime(buf, BUF_SIZE, (format != NULL) ? format: "%A %B %d %I:%M:%S %p %Y %Z", tmp);
-			/*%x = Preferred date representation
-			%I = Hour as a decimal number (12-hour clock).
-			%M = Minutes in decimal ranging from 00 to 59.
-			%p = Either “AM” or “PM” according to the given time value, etc.
-			%a = Abbreviated weekday name
-			%A = Full weekday name
-			%b = Abbreviated month name
-			%B = Full month name March
-			%c = Date and time representation
-			%d = Day of the month (01-31)
-			%H = Hour in 24h format (00-23)
-			%I = Hour in 12h format (01-12)
-			%j = Day of the year (001-366)
-			%m = Month as a decimal number (01-12)
-			%M = Minute (00-59)*/
+
 			return (s == 0) ? NULL : buf;
 		}
 	
