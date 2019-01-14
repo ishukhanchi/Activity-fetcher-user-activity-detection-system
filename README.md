@@ -8,6 +8,12 @@ Clone the repository. git clone [https://github.com/ishukhanchi/Activity-fetcher
    * Change to current directory/folder/file. <br> 
    * Type gcc finename.c
    * Type ./a.out
-   * From the given inputs choose one accordingly.
+   * From the given inputs choose one accordingly. 
    
+   And to run the php code: 
+   * Make sure you have LAMP setup installed on your Ubuntu OS. 
+   * Cpoy your php files in a display folder. 
+   * Copy the display folder in wwwvar/html folder. 
+   * Open your browser and type localhost/display/filename
+  
   Any changes and upgradations in the projet are welcomed.
