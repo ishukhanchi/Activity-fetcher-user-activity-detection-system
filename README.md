@@ -11,9 +11,10 @@ Clone the repository. git clone [https://github.com/ishukhanchi/Activity-fetcher
    * From the given inputs choose one accordingly. 
    
    And to run the php code: 
-   * Make sure you have LAMP setup installed on your Ubuntu OS. 
+   * Make sure you have LAMP setup installed on your Ubuntu OS.
+   * If not click on the [link](https://www.wikihow.com/Install-XAMPP-on-Linux) 
    * Cpoy your php files in a display folder. 
-   * Copy the display folder in wwwvar/html folder. 
+   * Copy the display folder in var/www/html folder. 
    * Open your browser and type localhost/display/filename
   
   Any changes and upgradations in the projet are welcomed.
